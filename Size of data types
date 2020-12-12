@@ -1,3 +1,4 @@
+//to print size of data types 
 #include <iostream>
 using namespace std;
 
@@ -8,5 +9,21 @@ int main()
     cout << "Size of float: " << sizeof(float) << " bytes" << endl;
     cout << "Size of double: " << sizeof(double) << " bytes" << endl;
 
+    return 0;
+}
+//to print product of 2 numbers
+#include <iostream>
+using namespace std;
+
+int main() {
+    int x, y, product;
+    
+    cout << "Enter two integers\n";
+    cin >> x >> y;
+    
+    // Multiplying x and y
+    product = x*y;
+    cout << "Product = " << product;
+    
     return 0;
 }
